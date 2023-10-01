@@ -107,7 +107,7 @@
         }).then((unityInstance) => {
           loadingBar.style.display = "none";
           fullscreenButton.onclick = () => {
-            unityInstance.SetFullscreen(1);
+            window.vuplex.SetFullscreen(1)/*https://support.vuplex.com/articles/webgl-fullscreen*/;
           };
         }).catch((message) => {
           alert(message);
