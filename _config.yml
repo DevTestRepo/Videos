@@ -1,3 +1,0 @@
-# Enable CORS
-http_headers:
-  Access-Control-Allow-Origin: "https://firebasestorage.googleapis.com"
