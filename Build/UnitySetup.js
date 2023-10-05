@@ -8,17 +8,6 @@
 
 var buildUrl = "Build";
 var loaderUrl = buildUrl + "/Build.loader.js";
-var config = {
-    dataUrl: "Build/Build.data",
-    frameworkUrl: "Build/Build.framework.js",
-    codeUrl: "Build/Build.wasm",
-    streamingAssetsUrl: "StreamingAssets",
-    companyName: "DefaultCompany",
-    productName: "VideoOverlay",
-    productVersion: "0.1",
-};
-
-
 var loadingBar = document.querySelector("#unity-loading-bar");
 var progressBarFull = document.querySelector("#unity-progress-bar-full");
 
