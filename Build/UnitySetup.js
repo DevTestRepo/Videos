@@ -6,7 +6,8 @@
 // way that non-critical warnings and error messages are presented to the
 // user.
 
-
+var buildUrl = "Build";
+var loaderUrl = buildUrl + "/Build.loader.js";
 var buildUrl = "Build";
 var config = {
     dataUrl: "Build/Build.data",
