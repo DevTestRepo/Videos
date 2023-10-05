@@ -98,6 +98,8 @@
             // matchWebGLToCanvasSize: false, // Uncomment this to separately control WebGL canvas render size and DOM element size.
             // devicePixelRatio: 1, // Uncomment this to override low DPI rendering on high DPI displays.
         });
+        var buildUrl = "Build";
+        var loaderUrl = buildUrl + "/Build.loader.js";
         loadingBar.style.display = "block";
         createUnityInstance(canvas, config, (progress) => {
             progressBarFull.style.width = 100 * progress + "%";
