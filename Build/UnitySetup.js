@@ -8,14 +8,13 @@
 
 
 var buildUrl = "Build";
-var loaderUrl = buildUrl + "/SMTCopyBuild.loader.js";
 var config = {
-    dataUrl: buildUrl + "/SMTCopyBuild.data",
-    frameworkUrl: buildUrl + "/SMTCopyBuild.framework.js",
-    codeUrl: buildUrl + "/SMTCopyBuild.wasm",
+    dataUrl: "Build/Build.data",
+    frameworkUrl: "Build/Build.framework.js",
+    codeUrl: "Build/Build.wasm",
     streamingAssetsUrl: "StreamingAssets",
     companyName: "DefaultCompany",
-    productName: "SMT",
+    productName: "VideoOverlay",
     productVersion: "0.1",
 };
 
