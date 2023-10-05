@@ -87,7 +87,7 @@
         });
         onResize();
 
-        createUnityInstance(document.querySelector("#unity-canvas"), {
+        var config = {
             dataUrl: "Build/Build.data",
             frameworkUrl: "Build/Build.framework.js",
             codeUrl: "Build/Build.wasm",
@@ -97,7 +97,7 @@
             productVersion: "0.1",
             // matchWebGLToCanvasSize: false, // Uncomment this to separately control WebGL canvas render size and DOM element size.
             // devicePixelRatio: 1, // Uncomment this to override low DPI rendering on high DPI displays.
-        });
+        };
         var loadingBar = document.querySelector("#unity-loading-bar");
         var progressBarFull = document.querySelector("#unity-progress-bar-full");
         loadingBar.style.display = "block";
