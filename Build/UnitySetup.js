@@ -8,7 +8,6 @@
 
 var buildUrl = "Build";
 var loaderUrl = buildUrl + "/Build.loader.js";
-var buildUrl = "Build";
 var config = {
     dataUrl: "Build/Build.data",
     frameworkUrl: "Build/Build.framework.js",
